@@ -7,15 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77161ABDC2F6F8A1485F0C8A /* Pods_hayulu_dining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1155CCF28D8442090CF4E0 /* Pods_hayulu_dining.framework */; };
 		81DF1790278DB0A300F37D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DF178F278DB0A300F37D15 /* AppDelegate.swift */; };
 		81DF1792278DB0A300F37D15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DF1791278DB0A300F37D15 /* SceneDelegate.swift */; };
 		81DF1794278DB0A300F37D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DF1793278DB0A300F37D15 /* ViewController.swift */; };
 		81DF1797278DB0A300F37D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DF1795278DB0A300F37D15 /* Main.storyboard */; };
 		81DF1799278DB0A400F37D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81DF1798278DB0A400F37D15 /* Assets.xcassets */; };
 		81DF179C278DB0A400F37D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81DF179A278DB0A400F37D15 /* LaunchScreen.storyboard */; };
+		81DF17D6278DB0E900F37D15 /* rounded-mplus-1m-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17A4278DB0E700F37D15 /* rounded-mplus-1m-regular.ttf */; };
+		81DF17D7278DB0E900F37D15 /* rounded-mplus-1p-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17A5278DB0E700F37D15 /* rounded-mplus-1p-black.ttf */; };
+		81DF17D8278DB0E900F37D15 /* rounded-mplus-1p-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17A6278DB0E700F37D15 /* rounded-mplus-1p-thin.ttf */; };
+		81DF17D9278DB0E900F37D15 /* rounded-mplus-2p-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17A7278DB0E700F37D15 /* rounded-mplus-2p-bold.ttf */; };
+		81DF17DA278DB0E900F37D15 /* rounded-mplus-1c-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17A8278DB0E700F37D15 /* rounded-mplus-1c-light.ttf */; };
+		81DF17DB278DB0E900F37D15 /* rounded-mplus-2p-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17A9278DB0E700F37D15 /* rounded-mplus-2p-thin.ttf */; };
+		81DF17DC278DB0E900F37D15 /* rounded-mplus-1p-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17AA278DB0E700F37D15 /* rounded-mplus-1p-regular.ttf */; };
+		81DF17DD278DB0E900F37D15 /* rounded-mplus-2m-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17AB278DB0E700F37D15 /* rounded-mplus-2m-bold.ttf */; };
+		81DF17DE278DB0E900F37D15 /* rounded-mplus-1p-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17AC278DB0E700F37D15 /* rounded-mplus-1p-medium.ttf */; };
+		81DF17DF278DB0E900F37D15 /* rounded-mplus-1c-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17AD278DB0E700F37D15 /* rounded-mplus-1c-black.ttf */; };
+		81DF17E0278DB0E900F37D15 /* rounded-mplus-2c-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17AE278DB0E700F37D15 /* rounded-mplus-2c-regular.ttf */; };
+		81DF17E1278DB0E900F37D15 /* rounded-mplus-2m-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17AF278DB0E800F37D15 /* rounded-mplus-2m-light.ttf */; };
+		81DF17E6278DB0E900F37D15 /* README_E_Rounded.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17B5278DB0E800F37D15 /* README_E_Rounded.txt */; };
+		81DF17E7278DB0E900F37D15 /* rounded-mplus-1mn-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17B6278DB0E800F37D15 /* rounded-mplus-1mn-light.ttf */; };
+		81DF17E8278DB0E900F37D15 /* rounded-mplus-2c-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17B7278DB0E800F37D15 /* rounded-mplus-2c-light.ttf */; };
+		81DF17E9278DB0E900F37D15 /* rounded-mplus-2m-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17B8278DB0E800F37D15 /* rounded-mplus-2m-medium.ttf */; };
+		81DF17EA278DB0E900F37D15 /* rounded-mplus-1p-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17B9278DB0E800F37D15 /* rounded-mplus-1p-bold.ttf */; };
+		81DF17EB278DB0EA00F37D15 /* rounded-mplus-1m-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17BA278DB0E800F37D15 /* rounded-mplus-1m-light.ttf */; };
+		81DF17EC278DB0EA00F37D15 /* rounded-mplus-2p-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17BB278DB0E800F37D15 /* rounded-mplus-2p-black.ttf */; };
+		81DF17ED278DB0EA00F37D15 /* rounded-mplus-2p-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17BC278DB0E800F37D15 /* rounded-mplus-2p-heavy.ttf */; };
+		81DF17EE278DB0EA00F37D15 /* rounded-mplus-1mn-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17BD278DB0E800F37D15 /* rounded-mplus-1mn-regular.ttf */; };
+		81DF17EF278DB0EA00F37D15 /* rounded-mplus-1m-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17BE278DB0E800F37D15 /* rounded-mplus-1m-bold.ttf */; };
+		81DF17F0278DB0EA00F37D15 /* README_J_Rounded.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17BF278DB0E800F37D15 /* README_J_Rounded.txt */; };
+		81DF17F1278DB0EA00F37D15 /* rounded-mplus-2c-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C0278DB0E800F37D15 /* rounded-mplus-2c-heavy.ttf */; };
+		81DF17F2278DB0EA00F37D15 /* rounded-mplus-1c-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C1278DB0E800F37D15 /* rounded-mplus-1c-heavy.ttf */; };
+		81DF17F3278DB0EA00F37D15 /* rounded-mplus-1c-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C2278DB0E800F37D15 /* rounded-mplus-1c-regular.ttf */; };
+		81DF17F4278DB0EA00F37D15 /* rounded-mplus-2m-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C3278DB0E800F37D15 /* rounded-mplus-2m-regular.ttf */; };
+		81DF17F5278DB0EA00F37D15 /* rounded-mplus-2p-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C4278DB0E800F37D15 /* rounded-mplus-2p-light.ttf */; };
+		81DF17F6278DB0EA00F37D15 /* rounded-mplus-1c-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C5278DB0E900F37D15 /* rounded-mplus-1c-thin.ttf */; };
+		81DF17F7278DB0EA00F37D15 /* rounded-mplus-1p-heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C6278DB0E900F37D15 /* rounded-mplus-1p-heavy.ttf */; };
+		81DF17F8278DB0EA00F37D15 /* rounded-mplus-2p-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C7278DB0E900F37D15 /* rounded-mplus-2p-medium.ttf */; };
+		81DF17F9278DB0EA00F37D15 /* rounded-mplus-2c-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C8278DB0E900F37D15 /* rounded-mplus-2c-thin.ttf */; };
+		81DF17FA278DB0EA00F37D15 /* rounded-mplus-2c-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17C9278DB0E900F37D15 /* rounded-mplus-2c-bold.ttf */; };
+		81DF17FB278DB0EA00F37D15 /* rounded-mplus-1c-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17CA278DB0E900F37D15 /* rounded-mplus-1c-bold.ttf */; };
+		81DF17FC278DB0EA00F37D15 /* rounded-mplus-2p-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17CB278DB0E900F37D15 /* rounded-mplus-2p-regular.ttf */; };
+		81DF17FD278DB0EA00F37D15 /* rounded-mplus-1p-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17CC278DB0E900F37D15 /* rounded-mplus-1p-light.ttf */; };
+		81DF17FE278DB0EA00F37D15 /* rounded-mplus-2m-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17CD278DB0E900F37D15 /* rounded-mplus-2m-thin.ttf */; };
+		81DF17FF278DB0EA00F37D15 /* rounded-mplus-1m-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17CE278DB0E900F37D15 /* rounded-mplus-1m-thin.ttf */; };
+		81DF1800278DB0EA00F37D15 /* rounded-mplus-1m-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17CF278DB0E900F37D15 /* rounded-mplus-1m-medium.ttf */; };
+		81DF1801278DB0EA00F37D15 /* rounded-mplus-1c-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17D0278DB0E900F37D15 /* rounded-mplus-1c-medium.ttf */; };
+		81DF1802278DB0EA00F37D15 /* rounded-mplus-1mn-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17D1278DB0E900F37D15 /* rounded-mplus-1mn-bold.ttf */; };
+		81DF1803278DB0EA00F37D15 /* rounded-mplus-2c-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17D2278DB0E900F37D15 /* rounded-mplus-2c-medium.ttf */; };
+		81DF1804278DB0EA00F37D15 /* rounded-mplus-1mn-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17D3278DB0E900F37D15 /* rounded-mplus-1mn-thin.ttf */; };
+		81DF1805278DB0EA00F37D15 /* rounded-mplus-1mn-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17D4278DB0E900F37D15 /* rounded-mplus-1mn-medium.ttf */; };
+		81DF1806278DB0EA00F37D15 /* rounded-mplus-2c-black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81DF17D5278DB0E900F37D15 /* rounded-mplus-2c-black.ttf */; };
+		81DF1808278DB1EE00F37D15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81DF1807278DB1EE00F37D15 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6913BC4BD7A01AA8AF1A95F1 /* Pods-hayulu-dining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hayulu-dining.release.xcconfig"; path = "Target Support Files/Pods-hayulu-dining/Pods-hayulu-dining.release.xcconfig"; sourceTree = "<group>"; };
+		6A1155CCF28D8442090CF4E0 /* Pods_hayulu_dining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hayulu_dining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DF178C278DB0A300F37D15 /* hayulu-dining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hayulu-dining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DF178F278DB0A300F37D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81DF1791278DB0A300F37D15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +73,53 @@
 		81DF1798278DB0A400F37D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81DF179B278DB0A400F37D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81DF179D278DB0A400F37D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81DF17A4278DB0E700F37D15 /* rounded-mplus-1m-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1m-regular.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1m-regular.ttf"; sourceTree = "<group>"; };
+		81DF17A5278DB0E700F37D15 /* rounded-mplus-1p-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1p-black.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1p-black.ttf"; sourceTree = "<group>"; };
+		81DF17A6278DB0E700F37D15 /* rounded-mplus-1p-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1p-thin.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1p-thin.ttf"; sourceTree = "<group>"; };
+		81DF17A7278DB0E700F37D15 /* rounded-mplus-2p-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2p-bold.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2p-bold.ttf"; sourceTree = "<group>"; };
+		81DF17A8278DB0E700F37D15 /* rounded-mplus-1c-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1c-light.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1c-light.ttf"; sourceTree = "<group>"; };
+		81DF17A9278DB0E700F37D15 /* rounded-mplus-2p-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2p-thin.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2p-thin.ttf"; sourceTree = "<group>"; };
+		81DF17AA278DB0E700F37D15 /* rounded-mplus-1p-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1p-regular.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1p-regular.ttf"; sourceTree = "<group>"; };
+		81DF17AB278DB0E700F37D15 /* rounded-mplus-2m-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2m-bold.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2m-bold.ttf"; sourceTree = "<group>"; };
+		81DF17AC278DB0E700F37D15 /* rounded-mplus-1p-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1p-medium.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1p-medium.ttf"; sourceTree = "<group>"; };
+		81DF17AD278DB0E700F37D15 /* rounded-mplus-1c-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1c-black.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1c-black.ttf"; sourceTree = "<group>"; };
+		81DF17AE278DB0E700F37D15 /* rounded-mplus-2c-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2c-regular.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2c-regular.ttf"; sourceTree = "<group>"; };
+		81DF17AF278DB0E800F37D15 /* rounded-mplus-2m-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2m-light.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2m-light.ttf"; sourceTree = "<group>"; };
+		81DF17B5278DB0E800F37D15 /* README_E_Rounded.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README_E_Rounded.txt; path = "../../../../Downloads/rounded-mplus/README_E_Rounded.txt"; sourceTree = "<group>"; };
+		81DF17B6278DB0E800F37D15 /* rounded-mplus-1mn-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1mn-light.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1mn-light.ttf"; sourceTree = "<group>"; };
+		81DF17B7278DB0E800F37D15 /* rounded-mplus-2c-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2c-light.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2c-light.ttf"; sourceTree = "<group>"; };
+		81DF17B8278DB0E800F37D15 /* rounded-mplus-2m-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2m-medium.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2m-medium.ttf"; sourceTree = "<group>"; };
+		81DF17B9278DB0E800F37D15 /* rounded-mplus-1p-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1p-bold.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1p-bold.ttf"; sourceTree = "<group>"; };
+		81DF17BA278DB0E800F37D15 /* rounded-mplus-1m-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1m-light.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1m-light.ttf"; sourceTree = "<group>"; };
+		81DF17BB278DB0E800F37D15 /* rounded-mplus-2p-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2p-black.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2p-black.ttf"; sourceTree = "<group>"; };
+		81DF17BC278DB0E800F37D15 /* rounded-mplus-2p-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2p-heavy.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2p-heavy.ttf"; sourceTree = "<group>"; };
+		81DF17BD278DB0E800F37D15 /* rounded-mplus-1mn-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1mn-regular.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1mn-regular.ttf"; sourceTree = "<group>"; };
+		81DF17BE278DB0E800F37D15 /* rounded-mplus-1m-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1m-bold.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1m-bold.ttf"; sourceTree = "<group>"; };
+		81DF17BF278DB0E800F37D15 /* README_J_Rounded.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README_J_Rounded.txt; path = "../../../../Downloads/rounded-mplus/README_J_Rounded.txt"; sourceTree = "<group>"; };
+		81DF17C0278DB0E800F37D15 /* rounded-mplus-2c-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2c-heavy.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2c-heavy.ttf"; sourceTree = "<group>"; };
+		81DF17C1278DB0E800F37D15 /* rounded-mplus-1c-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1c-heavy.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1c-heavy.ttf"; sourceTree = "<group>"; };
+		81DF17C2278DB0E800F37D15 /* rounded-mplus-1c-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1c-regular.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1c-regular.ttf"; sourceTree = "<group>"; };
+		81DF17C3278DB0E800F37D15 /* rounded-mplus-2m-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2m-regular.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2m-regular.ttf"; sourceTree = "<group>"; };
+		81DF17C4278DB0E800F37D15 /* rounded-mplus-2p-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2p-light.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2p-light.ttf"; sourceTree = "<group>"; };
+		81DF17C5278DB0E900F37D15 /* rounded-mplus-1c-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1c-thin.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1c-thin.ttf"; sourceTree = "<group>"; };
+		81DF17C6278DB0E900F37D15 /* rounded-mplus-1p-heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1p-heavy.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1p-heavy.ttf"; sourceTree = "<group>"; };
+		81DF17C7278DB0E900F37D15 /* rounded-mplus-2p-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2p-medium.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2p-medium.ttf"; sourceTree = "<group>"; };
+		81DF17C8278DB0E900F37D15 /* rounded-mplus-2c-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2c-thin.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2c-thin.ttf"; sourceTree = "<group>"; };
+		81DF17C9278DB0E900F37D15 /* rounded-mplus-2c-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2c-bold.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2c-bold.ttf"; sourceTree = "<group>"; };
+		81DF17CA278DB0E900F37D15 /* rounded-mplus-1c-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1c-bold.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1c-bold.ttf"; sourceTree = "<group>"; };
+		81DF17CB278DB0E900F37D15 /* rounded-mplus-2p-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2p-regular.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2p-regular.ttf"; sourceTree = "<group>"; };
+		81DF17CC278DB0E900F37D15 /* rounded-mplus-1p-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1p-light.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1p-light.ttf"; sourceTree = "<group>"; };
+		81DF17CD278DB0E900F37D15 /* rounded-mplus-2m-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2m-thin.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2m-thin.ttf"; sourceTree = "<group>"; };
+		81DF17CE278DB0E900F37D15 /* rounded-mplus-1m-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1m-thin.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1m-thin.ttf"; sourceTree = "<group>"; };
+		81DF17CF278DB0E900F37D15 /* rounded-mplus-1m-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1m-medium.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1m-medium.ttf"; sourceTree = "<group>"; };
+		81DF17D0278DB0E900F37D15 /* rounded-mplus-1c-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1c-medium.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1c-medium.ttf"; sourceTree = "<group>"; };
+		81DF17D1278DB0E900F37D15 /* rounded-mplus-1mn-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1mn-bold.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1mn-bold.ttf"; sourceTree = "<group>"; };
+		81DF17D2278DB0E900F37D15 /* rounded-mplus-2c-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2c-medium.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2c-medium.ttf"; sourceTree = "<group>"; };
+		81DF17D3278DB0E900F37D15 /* rounded-mplus-1mn-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1mn-thin.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1mn-thin.ttf"; sourceTree = "<group>"; };
+		81DF17D4278DB0E900F37D15 /* rounded-mplus-1mn-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-1mn-medium.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-1mn-medium.ttf"; sourceTree = "<group>"; };
+		81DF17D5278DB0E900F37D15 /* rounded-mplus-2c-black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "rounded-mplus-2c-black.ttf"; path = "../../../../Downloads/rounded-mplus/rounded-mplus-2c-black.ttf"; sourceTree = "<group>"; };
+		81DF1807278DB1EE00F37D15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B5678C09041D64E9C5A8B45E /* Pods-hayulu-dining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hayulu-dining.debug.xcconfig"; path = "Target Support Files/Pods-hayulu-dining/Pods-hayulu-dining.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +127,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77161ABDC2F6F8A1485F0C8A /* Pods_hayulu_dining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C5155D8B010BBF3B7B6C5E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A1155CCF28D8442090CF4E0 /* Pods_hayulu_dining.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28DA61B94A53778506FC6B8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5678C09041D64E9C5A8B45E /* Pods-hayulu-dining.debug.xcconfig */,
+				6913BC4BD7A01AA8AF1A95F1 /* Pods-hayulu-dining.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		81DF1783278DB0A200F37D15 = {
 			isa = PBXGroup;
 			children = (
 				81DF178E278DB0A300F37D15 /* hayulu-dining */,
 				81DF178D278DB0A300F37D15 /* Products */,
+				28DA61B94A53778506FC6B8F /* Pods */,
+				1C5155D8B010BBF3B7B6C5E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +173,7 @@
 		81DF178E278DB0A300F37D15 /* hayulu-dining */ = {
 			isa = PBXGroup;
 			children = (
+				81DF17A3278DB0B900F37D15 /* Fonts */,
 				81DF178F278DB0A300F37D15 /* AppDelegate.swift */,
 				81DF1791278DB0A300F37D15 /* SceneDelegate.swift */,
 				81DF1793278DB0A300F37D15 /* ViewController.swift */,
@@ -63,8 +181,61 @@
 				81DF1798278DB0A400F37D15 /* Assets.xcassets */,
 				81DF179A278DB0A400F37D15 /* LaunchScreen.storyboard */,
 				81DF179D278DB0A400F37D15 /* Info.plist */,
+				81DF1807278DB1EE00F37D15 /* GoogleService-Info.plist */,
 			);
 			path = "hayulu-dining";
+			sourceTree = "<group>";
+		};
+		81DF17A3278DB0B900F37D15 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				81DF17B5278DB0E800F37D15 /* README_E_Rounded.txt */,
+				81DF17BF278DB0E800F37D15 /* README_J_Rounded.txt */,
+				81DF17AD278DB0E700F37D15 /* rounded-mplus-1c-black.ttf */,
+				81DF17CA278DB0E900F37D15 /* rounded-mplus-1c-bold.ttf */,
+				81DF17C1278DB0E800F37D15 /* rounded-mplus-1c-heavy.ttf */,
+				81DF17A8278DB0E700F37D15 /* rounded-mplus-1c-light.ttf */,
+				81DF17D0278DB0E900F37D15 /* rounded-mplus-1c-medium.ttf */,
+				81DF17C2278DB0E800F37D15 /* rounded-mplus-1c-regular.ttf */,
+				81DF17C5278DB0E900F37D15 /* rounded-mplus-1c-thin.ttf */,
+				81DF17BE278DB0E800F37D15 /* rounded-mplus-1m-bold.ttf */,
+				81DF17BA278DB0E800F37D15 /* rounded-mplus-1m-light.ttf */,
+				81DF17CF278DB0E900F37D15 /* rounded-mplus-1m-medium.ttf */,
+				81DF17A4278DB0E700F37D15 /* rounded-mplus-1m-regular.ttf */,
+				81DF17CE278DB0E900F37D15 /* rounded-mplus-1m-thin.ttf */,
+				81DF17D1278DB0E900F37D15 /* rounded-mplus-1mn-bold.ttf */,
+				81DF17B6278DB0E800F37D15 /* rounded-mplus-1mn-light.ttf */,
+				81DF17D4278DB0E900F37D15 /* rounded-mplus-1mn-medium.ttf */,
+				81DF17BD278DB0E800F37D15 /* rounded-mplus-1mn-regular.ttf */,
+				81DF17D3278DB0E900F37D15 /* rounded-mplus-1mn-thin.ttf */,
+				81DF17A5278DB0E700F37D15 /* rounded-mplus-1p-black.ttf */,
+				81DF17B9278DB0E800F37D15 /* rounded-mplus-1p-bold.ttf */,
+				81DF17C6278DB0E900F37D15 /* rounded-mplus-1p-heavy.ttf */,
+				81DF17CC278DB0E900F37D15 /* rounded-mplus-1p-light.ttf */,
+				81DF17AC278DB0E700F37D15 /* rounded-mplus-1p-medium.ttf */,
+				81DF17AA278DB0E700F37D15 /* rounded-mplus-1p-regular.ttf */,
+				81DF17A6278DB0E700F37D15 /* rounded-mplus-1p-thin.ttf */,
+				81DF17D5278DB0E900F37D15 /* rounded-mplus-2c-black.ttf */,
+				81DF17C9278DB0E900F37D15 /* rounded-mplus-2c-bold.ttf */,
+				81DF17C0278DB0E800F37D15 /* rounded-mplus-2c-heavy.ttf */,
+				81DF17B7278DB0E800F37D15 /* rounded-mplus-2c-light.ttf */,
+				81DF17D2278DB0E900F37D15 /* rounded-mplus-2c-medium.ttf */,
+				81DF17AE278DB0E700F37D15 /* rounded-mplus-2c-regular.ttf */,
+				81DF17C8278DB0E900F37D15 /* rounded-mplus-2c-thin.ttf */,
+				81DF17AB278DB0E700F37D15 /* rounded-mplus-2m-bold.ttf */,
+				81DF17AF278DB0E800F37D15 /* rounded-mplus-2m-light.ttf */,
+				81DF17B8278DB0E800F37D15 /* rounded-mplus-2m-medium.ttf */,
+				81DF17C3278DB0E800F37D15 /* rounded-mplus-2m-regular.ttf */,
+				81DF17CD278DB0E900F37D15 /* rounded-mplus-2m-thin.ttf */,
+				81DF17BB278DB0E800F37D15 /* rounded-mplus-2p-black.ttf */,
+				81DF17A7278DB0E700F37D15 /* rounded-mplus-2p-bold.ttf */,
+				81DF17BC278DB0E800F37D15 /* rounded-mplus-2p-heavy.ttf */,
+				81DF17C4278DB0E800F37D15 /* rounded-mplus-2p-light.ttf */,
+				81DF17C7278DB0E900F37D15 /* rounded-mplus-2p-medium.ttf */,
+				81DF17CB278DB0E900F37D15 /* rounded-mplus-2p-regular.ttf */,
+				81DF17A9278DB0E700F37D15 /* rounded-mplus-2p-thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81DF17A0278DB0A400F37D15 /* Build configuration list for PBXNativeTarget "hayulu-dining" */;
 			buildPhases = (
+				EBE79C2FF9669E65DB915CCC /* [CP] Check Pods Manifest.lock */,
 				81DF1788278DB0A300F37D15 /* Sources */,
 				81DF1789278DB0A300F37D15 /* Frameworks */,
 				81DF178A278DB0A300F37D15 /* Resources */,
+				1EF3179245E733FD71705A95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +298,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DF17EA278DB0E900F37D15 /* rounded-mplus-1p-bold.ttf in Resources */,
+				81DF17FF278DB0EA00F37D15 /* rounded-mplus-1m-thin.ttf in Resources */,
+				81DF17FC278DB0EA00F37D15 /* rounded-mplus-2p-regular.ttf in Resources */,
 				81DF179C278DB0A400F37D15 /* LaunchScreen.storyboard in Resources */,
+				81DF17D6278DB0E900F37D15 /* rounded-mplus-1m-regular.ttf in Resources */,
+				81DF17DF278DB0E900F37D15 /* rounded-mplus-1c-black.ttf in Resources */,
+				81DF17DE278DB0E900F37D15 /* rounded-mplus-1p-medium.ttf in Resources */,
+				81DF17F9278DB0EA00F37D15 /* rounded-mplus-2c-thin.ttf in Resources */,
+				81DF17F8278DB0EA00F37D15 /* rounded-mplus-2p-medium.ttf in Resources */,
+				81DF17FD278DB0EA00F37D15 /* rounded-mplus-1p-light.ttf in Resources */,
+				81DF17F6278DB0EA00F37D15 /* rounded-mplus-1c-thin.ttf in Resources */,
+				81DF1801278DB0EA00F37D15 /* rounded-mplus-1c-medium.ttf in Resources */,
+				81DF1805278DB0EA00F37D15 /* rounded-mplus-1mn-medium.ttf in Resources */,
+				81DF17F0278DB0EA00F37D15 /* README_J_Rounded.txt in Resources */,
+				81DF17EF278DB0EA00F37D15 /* rounded-mplus-1m-bold.ttf in Resources */,
+				81DF17D9278DB0E900F37D15 /* rounded-mplus-2p-bold.ttf in Resources */,
+				81DF17FA278DB0EA00F37D15 /* rounded-mplus-2c-bold.ttf in Resources */,
+				81DF17DA278DB0E900F37D15 /* rounded-mplus-1c-light.ttf in Resources */,
+				81DF17EE278DB0EA00F37D15 /* rounded-mplus-1mn-regular.ttf in Resources */,
+				81DF17E0278DB0E900F37D15 /* rounded-mplus-2c-regular.ttf in Resources */,
+				81DF17E6278DB0E900F37D15 /* README_E_Rounded.txt in Resources */,
+				81DF17E7278DB0E900F37D15 /* rounded-mplus-1mn-light.ttf in Resources */,
+				81DF1804278DB0EA00F37D15 /* rounded-mplus-1mn-thin.ttf in Resources */,
+				81DF1800278DB0EA00F37D15 /* rounded-mplus-1m-medium.ttf in Resources */,
+				81DF17E1278DB0E900F37D15 /* rounded-mplus-2m-light.ttf in Resources */,
+				81DF17FB278DB0EA00F37D15 /* rounded-mplus-1c-bold.ttf in Resources */,
+				81DF17DC278DB0E900F37D15 /* rounded-mplus-1p-regular.ttf in Resources */,
+				81DF17F2278DB0EA00F37D15 /* rounded-mplus-1c-heavy.ttf in Resources */,
+				81DF1806278DB0EA00F37D15 /* rounded-mplus-2c-black.ttf in Resources */,
+				81DF1802278DB0EA00F37D15 /* rounded-mplus-1mn-bold.ttf in Resources */,
 				81DF1799278DB0A400F37D15 /* Assets.xcassets in Resources */,
+				81DF17F3278DB0EA00F37D15 /* rounded-mplus-1c-regular.ttf in Resources */,
+				81DF17D7278DB0E900F37D15 /* rounded-mplus-1p-black.ttf in Resources */,
+				81DF17D8278DB0E900F37D15 /* rounded-mplus-1p-thin.ttf in Resources */,
+				81DF1808278DB1EE00F37D15 /* GoogleService-Info.plist in Resources */,
+				81DF17DB278DB0E900F37D15 /* rounded-mplus-2p-thin.ttf in Resources */,
+				81DF17EC278DB0EA00F37D15 /* rounded-mplus-2p-black.ttf in Resources */,
 				81DF1797278DB0A300F37D15 /* Main.storyboard in Resources */,
+				81DF17DD278DB0E900F37D15 /* rounded-mplus-2m-bold.ttf in Resources */,
+				81DF17F4278DB0EA00F37D15 /* rounded-mplus-2m-regular.ttf in Resources */,
+				81DF17EB278DB0EA00F37D15 /* rounded-mplus-1m-light.ttf in Resources */,
+				81DF17ED278DB0EA00F37D15 /* rounded-mplus-2p-heavy.ttf in Resources */,
+				81DF17E8278DB0E900F37D15 /* rounded-mplus-2c-light.ttf in Resources */,
+				81DF1803278DB0EA00F37D15 /* rounded-mplus-2c-medium.ttf in Resources */,
+				81DF17F5278DB0EA00F37D15 /* rounded-mplus-2p-light.ttf in Resources */,
+				81DF17F1278DB0EA00F37D15 /* rounded-mplus-2c-heavy.ttf in Resources */,
+				81DF17FE278DB0EA00F37D15 /* rounded-mplus-2m-thin.ttf in Resources */,
+				81DF17E9278DB0E900F37D15 /* rounded-mplus-2m-medium.ttf in Resources */,
+				81DF17F7278DB0EA00F37D15 /* rounded-mplus-1p-heavy.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EF3179245E733FD71705A95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hayulu-dining/Pods-hayulu-dining-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hayulu-dining/Pods-hayulu-dining-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hayulu-dining/Pods-hayulu-dining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE79C2FF9669E65DB915CCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hayulu-dining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81DF1788278DB0A300F37D15 /* Sources */ = {
@@ -284,6 +545,7 @@
 		};
 		81DF17A1278DB0A400F37D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5678C09041D64E9C5A8B45E /* Pods-hayulu-dining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +574,7 @@
 		};
 		81DF17A2278DB0A400F37D15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6913BC4BD7A01AA8AF1A95F1 /* Pods-hayulu-dining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
